@@ -1,0 +1,85 @@
+# 檔案系統相關
+*.DS_Store
+Thumbs.db
+
+# Visual Studio 使用的檔案
+.vs/
+*.user
+*.suo
+
+# 編譯輸出的檔案和資料夾
+bin/
+obj/
+out/
+*_wpftmp.csproj
+
+# NuGet 套件
+*.nupkg
+*.snupkg
+packages/
+project.lock.json
+project.fragment.lock.json
+
+# 組件相關
+*.dll
+*.exe
+*.pdb
+*.cache
+*.log
+
+# 單元測試產生的結果
+TestResults/
+
+# Resharper / Rider
+_ReSharper.Caches/
+.idea/
+
+# 部署相關
+.publish/
+
+# 忽略環境設定檔
+appsettings.*.json
+.env
+secrets.json
+**/App.config
+RFIDWebAPI/appsettings.json
+
+# Mac 和 Linux 系統檔案
+*.swp
+*.sw~
+
+# 資料庫檔案
+*.mdf
+*.ldf
+*.ndf
+
+# Visual Studio Code
+.vscode/
+
+# 本地設定檔
+*.config.user
+*.pubxml.user
+appsettings.json
+
+# 暫存檔案
+[Tt]emp/
+*.tmp
+*.bak
+
+# 效能分析檔案
+*.psess
+*.vsp
+*.vspx
+
+# SQL Server 檔案
+*.mdf
+*.ldf
+
+# 應用程式特定的記錄檔
+logs/
+
+# Keep markdown documentation
+!*.md
+!.gitattributes
+
+CLAUDE.md
