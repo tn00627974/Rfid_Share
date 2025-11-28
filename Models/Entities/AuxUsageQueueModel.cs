@@ -18,7 +18,7 @@ namespace RfidWebAPI.Shared.Models.Entities
 
         public string? Tag { get; set; }
 
-        public string Station { get; set; } = string.Empty;
+        public string Area { get; set; } = string.Empty;
 
         public bool IsAuxAbnormal { get; set; } = false;
 
