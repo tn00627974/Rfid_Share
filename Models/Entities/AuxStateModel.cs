@@ -9,6 +9,8 @@ namespace RfidWebAPI.Shared.Models.Entities
 
         public string Name { get; set; } = string.Empty;
 
+        public string? Color { get; set; }
+
         public string? Description { get; set; }
 
         public DateTime CreatedAt { get; set; }
