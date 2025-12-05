@@ -6,11 +6,12 @@ namespace RfidWebAPI.Shared.Models.Entities
     public class AuxUsageQueueModel
     {
         public int Id { get; set; }
-
         /// <summary>
-        /// 對應 ERP 輔具 Id
+        /// 輔具序號
         /// </summary>
-        public int AuxId { get; set; }
+        public string AuxSn { get; set; } = string.Empty;
+
+        public string? AuxName { get; set; }
 
         public string? Category { get; set; }
 
@@ -18,9 +19,9 @@ namespace RfidWebAPI.Shared.Models.Entities
 
         public string? Tag { get; set; }
 
-        public string Area { get; set; } = string.Empty;
+        public int AreaId { get; set; }
 
-        public bool IsAuxAbnormal { get; set; } = false;
+        public bool IsNormal { get; set; } = true;
 
         public DateTime CreatedAt { get; set; }
     }
