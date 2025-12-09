@@ -1,9 +1,9 @@
 namespace RfidWebAPI.Shared.Models.Dtos.AuxUsageQueue
 {
     /// <summary>
-    /// 解決異常佇列回應
+    /// 處理佇列回應
     /// </summary>
-    public class ResolveAbnormalResponse
+    public class ResolveQueueResponse
     {
         /// <summary>
         /// 處理訊息
